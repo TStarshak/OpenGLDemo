@@ -1,0 +1,20 @@
+﻿  main.cpp
+E:\Visual Studio\Renderer\Renderer\RendererConstants.h(14,56): warning C4305: 'initializing': truncation from 'double' to 'const float'
+E:\Visual Studio\Renderer\Renderer\main.cpp(213,15): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+  Shader.cpp
+E:\Visual Studio\Renderer\Renderer\RendererConstants.h(14,56): warning C4305: 'initializing': truncation from 'double' to 'const float'
+E:\Visual Studio\Renderer\Renderer\Shader.cpp(203,75): warning C4244: 'argument': conversion from 'GLuint' to 'GLfloat', possible loss of data
+E:\Visual Studio\Renderer\Renderer\Shader.cpp(203,26): warning C4244: 'argument': conversion from 'GLuint' to 'GLfloat', possible loss of data
+E:\Visual Studio\Renderer\Renderer\Shader.cpp(202,91): warning C4244: 'argument': conversion from 'GLuint' to 'GLfloat', possible loss of data
+E:\Visual Studio\Renderer\Renderer\Shader.cpp(202,42): warning C4244: 'argument': conversion from 'GLuint' to 'GLfloat', possible loss of data
+  SpotLight.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+Model.obj : error LNK2019: unresolved external symbol "public: __thiscall Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QAE@XZ) referenced in function "public: void __thiscall Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadModel@Model@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Model.obj : error LNK2019: unresolved external symbol "public: __thiscall Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QAE@XZ) referenced in function "public: void __thiscall Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadModel@Model@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Model.obj : error LNK2019: unresolved external symbol "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@PBDI@Z) referenced in function "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z)
+Model.obj : error LNK2019: unresolved external symbol "public: char const * __thiscall Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QBEPBDXZ) referenced in function "public: void __thiscall Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadModel@Model@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Model.obj : error LNK2019: unresolved external symbol _aiGetMaterialTextureCount referenced in function "public: unsigned int __thiscall aiMaterial::GetTextureCount(enum aiTextureType)const " (?GetTextureCount@aiMaterial@@QBEIW4aiTextureType@@@Z)
+Model.obj : error LNK2019: unresolved external symbol _aiGetMaterialTexture referenced in function "public: enum aiReturn __thiscall aiMaterial::GetTexture(enum aiTextureType,unsigned int,struct aiString *,enum aiTextureMapping *,unsigned int *,float *,enum aiTextureOp *,enum aiTextureMapMode *)const " (?GetTexture@aiMaterial@@QBE?AW4aiReturn@@W4aiTextureType@@IPAUaiString@@PAW4aiTextureMapping@@PAIPAMPAW4aiTextureOp@@PAW4aiTextureMapMode@@@Z)
+E:\Visual Studio\Renderer\Renderer\\..\..\External Libraries\ASSIMP\lib\assimp-vc143-mtd.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+E:\Visual Studio\Renderer\Renderer\Debug\Renderer.exe : fatal error LNK1120: 6 unresolved externals
